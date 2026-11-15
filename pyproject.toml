@@ -1,0 +1,11 @@
+[project]
+name = "pm25-explorer"
+version = "0.1.0"
+description = "โครงการสำรวจข้อมูล PM2.5 ของประเทศไทย"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb",
+    "ipykernel",
+    "pandas",
+]
